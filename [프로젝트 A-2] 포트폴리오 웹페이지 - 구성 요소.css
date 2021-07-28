@@ -1,0 +1,835 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  background-color: black;
+  padding: 40px;
+  margin: 0px 0px 40px 0px;
+  text-align: center;
+}
+
+.title-word {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  position: relative;
+  right: 400px;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0;
+  /* white-space: nowrap; */
+}
+
+.table {
+  border: 1px groove;
+  font-size: 16px;
+  padding: 8.5px 123.525px 8.5px 123.525px;
+  margin-right: 14px;
+  white-space: nowrap;
+}
+
+.form {
+  border: 1px solid;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8.5px 123.525px 8.5px 123.525px;
+  margin-right: 14px;
+  white-space: nowrap;
+}
+
+.list {
+  border: 1px groove;
+  font-size: 16px;
+  padding: 8.5px 123.525px 8.5px 123.525px;
+  white-space: nowrap;
+}
+
+.element {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 458px;
+}
+
+.element-line {
+  margin: 10px 0px 30px 0px;
+  width: 998px;
+}
+
+.table-element {
+  border: 1px groove #d1d1d1;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f7f7f7;
+  padding: 15px 0px 15px 15px;
+  flex-grow: 1;
+  width: 985px;
+}
+
+.form-element {
+  margin-top: 30px;
+  border: 1px groove #d1d1d1;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f7f7f7;
+  padding: 15px 0px 15px 15px;
+  flex-grow: 1;
+  width: 985px;
+}
+
+.list-element {
+  margin-top: 30px;
+  border: 1px groove #d1d1d1;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f7f7f7;
+  padding: 15px 0px 15px 15px;
+  flex-grow: 1;
+  width: 985px;
+}
+
+.content-area1_title1 {
+  font-size: 14px;
+  font: bold;
+  color: #000;
+  border: 1px groove #050404;
+  padding: 30px 30px 30px 30px;
+  width: 940px;
+  font-weight: bold;
+}
+
+.kids-table {
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 20px;
+}
+
+.division {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  font: 12px;
+  color: #555;
+  width: 200px;
+}
+
+.Small {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  color: #555;
+  width: 170px;
+}
+
+.Medium {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  color: #555;
+  width: 170px;
+}
+
+.Large {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  color: #555;
+  width: 170px;
+}
+
+.X-Large {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  color: #555;
+  width: 170px;
+}
+
+.division-man {
+  border: 1px solid #e4e4e4;
+  color: #555;
+}
+
+table,
+td,
+th {
+  border: 1px solid #e4e4e4;
+  padding: 1%;
+}
+
+.refund {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.refund-1 {
+  width: 94%;
+  position: relative;
+  right: 3%;
+}
+
+.content-area2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  border: 1px groove #d1d1d1;
+  padding: 30px 30px 30px 30px;
+  width: 940px;
+}
+
+#division {
+  width: 94%;
+  background-color: #fbfbfb;
+  font-size: 12px;
+  color: #555;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 1%;
+}
+
+#refund-division {
+  margin-right: 15%;
+}
+
+.refund-division1 {
+  margin: 1% 16% 3% 16%;
+}
+
+.game-refund {
+  margin: 10px 0px 10px 0px;
+  font-size: 12px;
+  color: #555;
+  font-weight: 300;
+}
+
+.game-refund1 {
+  margin: 0px 12% 0px 12%;
+}
+
+.game-refund2 {
+  margin-left: 1%;
+}
+
+.game-refund3 {
+  margin-left: 14.7%;
+}
+
+.game-refund4 {
+  margin-left: 16%;
+}
+
+.month-refund {
+  margin: 10px 0px 10px 0px;
+  font-size: 12px;
+  color: #555;
+  font-weight: 300;
+}
+
+.month-refund1 {
+  margin: 0px 12% 0px 11%;
+}
+
+.month-refund2 {
+  margin-left: 0.2%;
+}
+
+.month-refund3 {
+  margin-left: 14.5%;
+}
+
+.month-refund4 {
+  margin-left: 16.6%;
+}
+
+.coin {
+  margin: 10px 0px 10px 0px;
+  font-size: 12px;
+  color: #555;
+  border-bottom: 1px solid #a5a5a5;
+  padding-bottom: 1%;
+  width: 94%;
+  font-weight: 300;
+}
+
+.coin1 {
+  margin: 0px 11.6% 0px 16%;
+}
+
+.coin2 {
+  margin-left: 6.1%;
+}
+
+.coin3 {
+  margin-left: 16.5%;
+}
+
+.coin4 {
+  margin-left: 17.6%;
+}
+
+.register-box {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  margin-top: 15px;
+}
+
+.total {
+  margin: 10px 0px 10px 0px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #555;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 1%;
+  width: 94%;
+}
+
+.total1 {
+  margin: 0px 11.6% 0px 15.5%;
+}
+
+.total2 {
+  margin-left: 3.5%;
+}
+
+.total3 {
+  margin-left: 15%;
+}
+
+.total4 {
+  margin-left: 15.5%;
+}
+
+.id {
+  margin: 15px;
+  font-size: 14px;
+}
+
+.id-box {
+  margin: 5px 0px 0px 0px;
+  width: 99.5%;
+  font-size: 12px;
+  color: #000;
+  height: 25px;
+  border: 1px solid #e4e4e4;
+}
+
+.password {
+  margin: 15px;
+}
+
+.password-box {
+  margin: 5px 0px -5px 0px;
+  width: 99.5%;
+  height: 25px;
+  border: 1px solid #e4e4e4;
+}
+
+.name {
+  margin: 20px 15px 15px 15px;
+}
+
+.name-box {
+  margin: 5px 0px 5px 0px;
+  width: 99.5%;
+  height: 25px;
+  border: 1px solid #e4e4e4;
+}
+
+.birth {
+  margin: 15px 15px 15px 15px;
+}
+
+.birth-box {
+  margin-top: 10px;
+}
+
+#year {
+  width: 32.9%;
+  height: 30px;
+  border: 1px solid #e4e4e4;
+}
+
+#month {
+  width: 32.9%;
+  height: 30px;
+  border: 1px solid #e4e4e4;
+}
+
+#day {
+  width: 32.9%;
+  height: 30px;
+  border: 1px solid #e4e4e4;
+}
+
+.gender {
+  margin: 15px;
+}
+
+.gender-box {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #000;
+}
+
+.gender_man {
+  font-size: 12px;
+  color: #000;
+  margin-right: 50px;
+}
+
+.gender_girl {
+  font-size: 12px;
+  color: #000;
+}
+
+.email {
+  margin: 15px;
+}
+
+.email-box {
+  margin: 5px 0px 5px 0px;
+  width: 99.5%;
+  height: 25px;
+  border: 1px solid #e4e4e4;
+}
+
+.phone_number {
+  margin: 15px;
+}
+
+#phone_number-box {
+  margin: 5px 0px 0px 0px;
+}
+
+.phone_number-box {
+  width: 79.95%;
+  height: 25px;
+  border: 1px solid #e4e4e4;
+  font-size: 12px;
+  color: #fff;
+}
+
+.phone_number_certification-button {
+  border: 1px #08a600;
+  background-color: #4ec53d;
+  color: #fff;
+  font-size: 12px;
+  height: 30px;
+  width: 18.8%;
+}
+
+.certification_number-box {
+  margin-top: 5px;
+  width: 99.5%;
+  height: 25px;
+  border: 1px solid #e4e4e4;
+}
+
+.hobby {
+  margin: 15px;
+}
+
+.hobby-box {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
+}
+
+.exercise-box {
+  margin-right: 50px;
+}
+
+.cook-box {
+  margin-right: 50px;
+}
+
+.travel-box {
+  margin-right: 50px;
+}
+
+.game-box {
+  margin-right: 50px;
+}
+
+.computer-box {
+  margin-right: 50px;
+}
+
+.music-box {
+  margin-right: 50px;
+}
+
+.movie-box {
+  margin-right: 50px;
+}
+
+.readbook-box {
+  margin-right: 50px;
+}
+
+.greetings {
+  margin: 15px;
+}
+
+.greetings-box {
+  margin-top: 5px;
+  width: 99.5%;
+  height: 120px;
+  border: 1px solid #e4e4e4;
+}
+
+.final_register-button {
+  margin: 5px 15px 15px 15px;
+  width: 97%;
+  height: 40px;
+  border: 1px #08a600;
+  background-color: #4ec53d;
+  font-size: 16px;
+  color: #fff;
+}
+
+.content-area3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  border: 1px groove #d1d1d1;
+  padding: 30px 30px 30px 30px;
+  width: 940px;
+  margin-bottom: 40px;
+}
+
+.project_search_result {
+  margin-top: -5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+.project_area {
+  margin-top: 15px;
+  border: 1px solid #e4e4e4;
+}
+
+.project {
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+}
+
+.project_1 {
+  margin: 20px;
+}
+
+.project_1-name {
+  font-size: 14px;
+  color: #000;
+}
+
+.project_1-dictionary_1 {
+  font-size: 12px;
+  color: #559bfa;
+}
+
+.project_1-mean {
+  font-size: 12px;
+  color: #000;
+  margin-top: 5px;
+}
+
+.project_2 {
+  margin: 20px 20px 50px 20px;
+}
+
+.project_2-dictionary_1 {
+  font-size: 12px;
+  color: #559bfa;
+}
+
+.project_2-mean {
+  font-size: 12px;
+  color: #000;
+  margin-top: 5px;
+}
+
+.real-time_search_terms {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 50px;
+}
+
+.real-time_search_terms-area {
+  border: 1px solid #e4e4e4;
+  width: 25%;
+}
+
+.real-time_search_terms-area1 {
+  margin: 15px;
+}
+
+#ranking {
+  border: 1px solid #e0e0e0;
+  padding: 2px 3px 2px 3px;
+  font-size: 10px;
+  color: #666;
+  margin-right: 5px;
+}
+
+#rank {
+  margin-bottom: 10px;
+}
+
+.cookie {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 45px;
+}
+
+.cookie-area {
+  border: 1px solid #e4e4e4;
+}
+
+#notice {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.service {
+  font-size: 12px;
+  color: #559bfa;
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+}
+
+.webtoon_work {
+  color: #559bfa;
+}
+
+.cookie-area_first {
+  font-size: 12px;
+  font-weight: bold !important;
+}
+
+.purchase {
+  color: #559bfa;
+}
+
+.news {
+  margin-top: 50px;
+}
+
+.news-area {
+  border: 1px solid #e4e4e4;
+  font-weight: 100;
+}
+
+.news1-title {
+  vertical-align: top;
+  font-size: 14px;
+  font-weight: bold;
+  color: #00c;
+  margin-bottom: 10px;
+}
+
+.news1-contents {
+  text-align: left;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+.first-news {
+  margin: 20px;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 20px;
+}
+
+.second-news {
+  margin: 20px;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 20px;
+}
+
+.news2-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #00c;
+}
+
+.news2-contents {
+  font-size: 12px;
+}
+
+.third-news {
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.news3-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #00c;
+}
+
+.news3-contents {
+  font-size: 12px;
+}
+
+.webtoon-area {
+  border: 1px solid #e4e4e4;
+}
+
+.webtoon-1_pic {
+  margin: 20px 0px 0px 20px;
+}
+
+.webtoon-2_pic {
+  margin: 0px 0px 0px 20px;
+}
+
+.webtoon-3_pic {
+  margin: 0px 0px 0px 20px;
+}
+
+.webtoon-1_title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 18px;
+}
+
+.webtoon-1_contents {
+  font-size: 12px;
+  color: #000;
+  margin-left: 2%;
+  font-weight: 500;
+}
+
+.webtoon-2_title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 27%;
+}
+
+#cut-toon {
+  border: 1px solid #71b036;
+  background-color: #80c83d;
+  font-size: 10px;
+  color: #fff;
+  padding: 0px 2px 0px 2px;
+}
+
+#smartphone {
+  border: 1px solid #df4e28;
+  background-color: #ec5336;
+  font-size: 10px;
+  color: #fff;
+  padding: 0px 2px 0px 2px;
+}
+
+.webtoon-2_contents {
+  font-size: 12px;
+  color: #000;
+  margin-left: 18.8%;
+  font-weight: 500;
+}
+
+.webtoon-3_title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 20%;
+}
+
+.webtoon-3_contents {
+  font-size: 12px;
+  color: #000;
+  margin-left: 16.3%;
+  font-weight: 500;
+}
+
+.webtoon-4_pic {
+  margin: 20px 0px 0px 20px;
+}
+
+.webtoon-5_pic {
+  margin: 0px 0px 0px 20px;
+}
+
+.webtoon-6_pic {
+  margin: 0px 0px 0px 20px;
+}
+
+.webtoon-4_title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 2.3%;
+}
+
+.webtoon-4_contents {
+  font-size: 12px;
+  color: #000;
+  margin-left: 2.3%;
+  font-weight: 500;
+}
+
+.webtoon-5_title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 24.5%;
+}
+
+.webtoon-5_contents {
+  font-size: 12px;
+  color: #000;
+  margin-left: 21%;
+  font-weight: 500;
+}
+
+.webtoon-6_title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 22.4%;
+}
+
+.webtoon-6_contents {
+  font-size: 12px;
+  color: #000;
+  margin-left: 26.75%;
+  font-weight: 500;
+}
+
+.last-contents {
+  margin-bottom: 10%;
+}
+
+.last-line {
+  width: 100%;
+  border: 1px solid #d1d1d1;
+}
+
+.address {
+  font-size: 12px;
+  color: #999;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 10%;
+}

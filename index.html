@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>프로젝트 A-2 포트폴리오 웹페이지 - 구성 요소</title>
+    <link
+      rel="stylesheet"
+      href="[프로젝트 A-2] 포트폴리오 웹페이지 - 구성 요소.css"
+    />
+  </head>
+  <body>
+    <div class="title">
+      <span class="title-word">포트폴리오</span>
+    </div>
+    <div class="container-box">
+      <div>
+        <span class="table">테이블 요소</span
+        ><!---->
+        <span class="form">폼 요소</span
+        ><!---->
+        <span class="list">리스트 요소</span>
+        <br />
+        <br />
+      </div>
+      <div class="element">구성 요소</div>
+      <hr class="element-line" />
+      <br />
+      <span class="table-element">테이블 요소</span>
+      <span class="content-area1_title1">
+        아동 사이즈
+        <table class="kids-table">
+          <thead>
+            <tr>
+              <th class="division" colspan="2">구분</th>
+              <th class="Small" colspan="2">Small</th>
+              <th class="Medium" colspan="2">Medium</th>
+              <th class="Large" colspan="2">Large</th>
+              <th class="X-Large">X-Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="3">
+                미국 남아 <br />
+                [Boys 2-7]
+              </th>
+              <th>사이즈</th>
+              <td>2T</td>
+              <td>3T</td>
+              <td>4T</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <th>키</th>
+              <td>84-91</td>
+              <td>91-99</td>
+              <td>91-99</td>
+              <td>99-107</td>
+              <td>107-114</td>
+              <td>114-122</td>
+              <td>122-130</td>
+            </tr>
+            <tr>
+              <th>몸무게</th>
+              <td>13-15</td>
+              <td>14-15</td>
+              <td>13-15</td>
+              <td>14-15</td>
+              <td>19-21</td>
+              <td>20-23</td>
+              <td>23-25</td>
+            </tr>
+            <tr>
+              <th rowspan="3" class="division-girl">
+                미국 여아 <br />
+                [Girls 2-6X]
+              </th>
+              <th>사이즈</th>
+              <td>2T</td>
+              <td>3T</td>
+              <td>4T</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>6X</td>
+            </tr>
+            <tr>
+              <th>키</th>
+              <td>84-91</td>
+              <td>91-99</td>
+              <td>91-99</td>
+              <td>99-107</td>
+              <td>107-114</td>
+              <td>114-122</td>
+              <td>122-130</td>
+            </tr>
+            <tr>
+              <th>몸무게</th>
+              <td>13-15</td>
+              <td>14-15</td>
+              <td>13-15</td>
+              <td>14-15</td>
+              <td>19-21</td>
+              <td>20-23</td>
+              <td>23-25</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <p class="refund">환불 가능 금액 조회</p>
+        <div>
+          <hr class="refund-1" />
+          <div id="division">
+            <span class="refund-division1">구분</span>
+            <span id="refund-division">환불가능액</span>
+            <span id="refund-division">수수료</span>
+            <span id="refund-division">총 환불금액</span>
+          </div>
+          <div class="game-refund">
+            <span class="game-refund1"> 게임 보상금액 </span>
+            <span class="game-refund2">100,000원</span>
+            <span class="game-refund3">1,000원</span>
+            <span class="game-refund4">99,000원</span>
+          </div>
+          <div class="month-refund">
+            <span class="month-refund1">월정액제 보상금액</span>
+            <span class="month-refund2">10,000원</span>
+            <span class="month-refund3">5,000원</span>
+            <span class="month-refund4">5,000원</span>
+          </div>
+          <div class="coin">
+            <span class="coin1">코인</span>
+            <span class="coin2">9,000원</span>
+            <span class="coin3">500원</span>
+            <span class="coin4">8,500원</span>
+          </div>
+          <div class="total">
+            <span class="total1">총합계</span>
+            <span class="total2">119,000원</span>
+            <span class="total3">6,500원</span>
+            <span class="total4">112,500원</span>
+          </div>
+        </div>
+      </span>
+      <span class="form-element">폼 요소</span>
+      <span class="content-area2"
+        >회원가입
+        <div class="register-box">
+          <div class="id">
+            아이디
+            <div>
+              <input type="text" class="id-box" />
+            </div>
+          </div>
+          <div class="password">
+            비밀번호
+            <div>
+              <input type="password" class="password-box" />
+            </div>
+          </div>
+          <div class="name">
+            이름
+            <div>
+              <input type="text" class="name-box" />
+            </div>
+          </div>
+          <div class="birth">
+            생년월일
+            <div class="birth-box">
+              <span>
+                <select name="year" id="year">
+                  <option value="년도" selected>년도</option>
+                  <option value="1980년">1980년</option>
+                  <option value="1981년">1981년</option>
+                  <option value="1982년">1982년</option>
+                  <option value="1983년">1983년</option>
+                  <option value="1984년">1984년</option>
+                  <option value="1985년">1985년</option>
+                  <option value="1986년">1986년</option>
+                  <option value="1987년">1987년</option>
+                  <option value="1988년">1988년</option>
+                  <option value="1989년">1989년</option>
+                  <option value="1990년">1990년</option>
+                  <option value="1991년">1991년</option>
+                  <option value="1992년">1992년</option>
+                  <option value="1993년">1993년</option>
+                  <option value="1994년">1994년</option>
+                  <option value="1995년">1995년</option>
+                  <option value="1996년">1996년</option>
+                  <option value="1997년">1997년</option>
+                  <option value="1998년">1998년</option>
+                  <option value="1999년">1999년</option>
+                  <option value="2000년">2000년</option>
+                  <option value="2001년">2001년</option>
+                  <option value="2002년">2002년</option>
+                  <option value="2003년">2003년</option>
+                  <option value="2004년">2004년</option>
+                  <option value="2005년">2005년</option>
+                  <option value="2006년">2006년</option>
+                  <option value="2007년">2007년</option>
+                  <option value="2008년">2008년</option>
+                  <option value="2009년">2009년</option>
+                  <option value="2010년">2010년</option>
+                  <option value="2011년">2011년</option>
+                  <option value="2012년">2012년</option>
+                  <option value="2013년">2013년</option>
+                  <option value="2014년">2014년</option>
+                  <option value="2015년">2015년</option>
+                  <option value="2016년">2016년</option>
+                  <option value="2017년">2017년</option>
+                  <option value="2018년">2018년</option>
+                  <option value="2019년">2019년</option>
+                  <option value="2020년">2020년</option>
+                  <option value="2021년">2021년</option>
+                </select>
+              </span>
+              <span>
+                <select name="month" id="month">
+                  <option value="월" selected>월</option>
+                  <option value="1월">1월</option>
+                  <option value="2월">2월</option>
+                  <option value="3월">3월</option>
+                  <option value="4월">4월</option>
+                  <option value="5월">5월</option>
+                  <option value="6월">6월</option>
+                  <option value="7월">7월</option>
+                  <option value="8월">8월</option>
+                  <option value="9월">9월</option>
+                  <option value="10월">10월</option>
+                  <option value="11월">11월</option>
+                  <option value="12월">12월</option>
+                </select>
+              </span>
+              <span>
+                <select name="day" id="day">
+                  <option value="일" selected>일</option>
+                  <option value="1일">1일</option>
+                  <option value="2일">2일</option>
+                  <option value="3일">3일</option>
+                  <option value="4일">4일</option>
+                  <option value="5일">5일</option>
+                  <option value="6일">6일</option>
+                  <option value="7일">7일</option>
+                  <option value="8일">8일</option>
+                  <option value="9일">9일</option>
+                  <option value="10일">10일</option>
+                  <option value="11일">11일</option>
+                  <option value="12일">12일</option>
+                  <option value="13일">13일</option>
+                  <option value="14일">14일</option>
+                  <option value="15일">15일</option>
+                  <option value="16일">16일</option>
+                  <option value="17일">17일</option>
+                  <option value="18일">18일</option>
+                  <option value="19일">19일</option>
+                  <option value="20일">20일</option>
+                  <option value="21일">21일</option>
+                  <option value="22일">22일</option>
+                  <option value="23일">23일</option>
+                  <option value="24일">24일</option>
+                  <option value="25일">25일</option>
+                  <option value="26일">26일</option>
+                  <option value="27일">27일</option>
+                  <option value="28일">28일</option>
+                  <option value="29일">29일</option>
+                  <option value="30일">30일</option>
+                  <option value="31일">31일</option>
+                </select>
+              </span>
+            </div>
+          </div>
+          <div class="gender">
+            성별
+            <div class="gender-box">
+              <span class="gender_man"
+                ><input type="radio" name="gender" />남자</span
+              >
+              <span
+                ><input
+                  type="radio"
+                  name="gender"
+                  class="gender_girl"
+                />여자</span
+              >
+            </div>
+          </div>
+          <div class="email">
+            이메일
+            <div>
+              <input
+                type="text"
+                class="email-box"
+                placeholder="이메일 주소에 '@'를 포함해주세요"
+              />
+            </div>
+          </div>
+          <div class="phone_number">
+            휴대전화
+            <div id="phone_number-box">
+              <span>
+                <input
+                  type="text"
+                  placeholder="숫자만 입력해주세요"
+                  class="phone_number-box"
+                />
+              </span>
+              <button class="phone_number_certification-button">
+                인증번호 받기
+              </button>
+            </div>
+            <div>
+              <input
+                type="text"
+                class="certification_number-box"
+                placeholder="인증번호를 입력해주세요"
+              />
+            </div>
+          </div>
+          <div class="hobby">
+            취미
+            <div class="hobby-box">
+              <span class="exercise-box">
+                <input type="checkbox" />
+                운동
+              </span>
+              <span class="cook-box">
+                <input type="checkbox" />
+                요리
+              </span>
+              <span class="travel-box">
+                <input type="checkbox" />
+                여행
+              </span>
+              <span class="game-box">
+                <input type="checkbox" />
+                게임
+              </span>
+              <span class="computer-box">
+                <input type="checkbox" />
+                컴퓨터
+              </span>
+              <span class="music-box">
+                <input type="checkbox" />
+                음악
+              </span>
+              <span class="movie-box">
+                <input type="checkbox" />
+                영화
+              </span>
+              <span class="read_book-box">
+                <input type="checkbox" />
+                독서
+              </span>
+            </div>
+          </div>
+          <div class="greetings">
+            가입인사
+            <div>
+              <input type="text" class="greetings-box" />
+            </div>
+          </div>
+          <button class="final_register-button">가입하기</button>
+        </div>
+      </span>
+      <span class="list-element">리스트 요소</span>
+      <span class="content-area3">
+        <p class="project_search_result">'프로젝트' 사전 검색 결과</p>
+        <div class="project_area">
+          <p class="project">프로젝트</p>
+          <div class="project_1">
+            <span class="project_1-name">프로젝트</span>
+            <span class="project_1-dictionary_1">영양학사전</span>
+            <div class="project_1-mean">
+              연구나 새로운 사업의 개발을 위한 유기적이고 조직적인 계획, 원자력
+              개발이나 우주개발 등은 대형 프로젝트를 조직하여 이루어진다.
+              일반적으로는 특정한 목표, 계획을 위한 학습활동, 실행계획 등을
+              가리킨다.
+            </div>
+          </div>
+          <div class="project_2">
+            <span class="project_2-name">프로젝트</span>
+            <span class="project_2-dictionary_1"
+              >Basic 중학생을 위한 기술, 가정 용어사전</span
+            >
+            <div class="project_2-mean">
+              어떤 특정한 목적 달성을 위하여 실시되는 시스템 개발, 프로그램
+              설계, 연구 개발 계획 혹은 건설 공사 등과 같이 한 번에 그치는
+              성격을 갖는 단위 작업이나 사업.
+            </div>
+          </div>
+        </div>
+        <p class="real-time_search_terms">실시간 검색어</p>
+        <div class="real-time_search_terms-area">
+          <div class="real-time_search_terms-area1">
+            <div class="rank_1st" id="rank">
+              <span id="ranking">1</span>
+              <span id="rank_contents" class="1st">입추</span>
+            </div>
+            <div class="rank_2nd" id="rank">
+              <span id="ranking">2</span>
+              <span id="rank_contents">런닝맨 유재석</span>
+            </div>
+            <div class="rank_3rd" id="rank">
+              <span id="ranking">3</span>
+              <span id="rank_contents">런닝맨</span>
+            </div>
+            <div class="rank_4th" id="rank">
+              <span id="ranking">4</span>
+              <span id="rank_contents">소나기</span>
+            </div>
+            <div class="rank_5th" id="rank">
+              <span id="ranking">5</span>
+              <span id="rank_contents">주간 날씨</span>
+            </div>
+            <div class="rank_6th" id="rank">
+              <span id="ranking">6</span>
+              <span id="rank_contents">깔라만시</span>
+            </div>
+            <div class="rank_7th" id="rank">
+              <span id="ranking">7</span>
+              <span id="rank_contents">내 아이디는 강남미인</span>
+            </div>
+            <div class="rank_8th" id="rank">
+              <span id="ranking">8</span>
+              <span id="rank_contents">차은우</span>
+            </div>
+            <div class="rank_9th" id="rank">
+              <span id="ranking">9</span>
+              <span id="rank_contents">한국사능력검정시험</span>
+            </div>
+            <div class="rank_10th" id="rank">
+              <span id="ranking">10</span>
+              <span id="rank_contents">맛있는 녀석들</span>
+            </div>
+          </div>
+        </div>
+        <p class="cookie">쿠키 이용안내</p>
+        <div class="cookie-area">
+          <ul>
+            <li id="notice" class="cookie-area_first">
+              <span class="webtoon_work">웹툰 작품</span>은 쿠키를 사용하여
+              대여/구매 하실 수 있습니다.
+            </li>
+            <li id="notice">
+              쿠키 구매 시 지급되는 보너스 쿠키의 수량은 변경될 수 있으며,
+              유효기간은 지금 후 90일입니다.
+            </li>
+            <li id="notice">
+              구매 후 7일 이내, 사용하지 않은 쿠키 패키지는
+              <a href="http://www.naver.com" class="purchase">구매내역</a>에서
+              직접 구매 취소할 수 있습니다.<a href=""></a>
+            </li>
+            <li id="notice">
+              일부 사용 후 잔여 쿠키에 대한 구매 취소는 고객센터를 통해
+              가능하며, 쿠키 구매 시 지급된 보너스 쿠키를 사용한 경우에는 해당
+              분량을 제외하고 환불됩니다.
+            </li>
+            <li id="notice">
+              쿠키 구매 또는 사용 전 이용약관 동의가 필요합니다.
+            </li>
+          </ul>
+          <p>
+            <a href="http://www.naver.com" class="service">쿠키 이용약관</a>
+          </p>
+        </div>
+        <p class="news">뉴스</p>
+        <div class="news-area">
+          <div class="first-news">
+            <span><img src="./thumbnail1.jpg" alt="" /></span>
+            <div>
+              <a href="http://www.naver.com" class="news1-title"
+                >[날씨] 내일도 35도 안팎 폭염-내륙 소나기···습도 높아
+                후텁지근</a
+              >
+            </div>
+            <span class="news1-contents">
+              오늘은 입추 절기지만 가을은 아직 멀리있는 것같습니다. 일부
+              내륙에는 소나기가 지났지만 소나기도 더위의 기세를 누그러뜨리진
+              못했는데요. 동해안을 제외한 전국 대부분 지방에 폭염 특보가
+              이어지는 가운데 내일도 한낮에 서울과 대전 35도, 광주와 대구가
+              36도까지 오를 것으로 예상됩니다. 내일도 대기가 불안정해지면서
+              오후에 내륙에는 소나기가 지나는 곳이 있겠습니다.
+            </span>
+          </div>
+          <div class="second-news">
+            <div>
+              <a href="http://www.naver.com" class="news2-title"
+                >[펫카드] 강아지 중성화가 필요한 이유</a
+              >
+            </div>
+            <div class="news2-contents">
+              (서울=뉴스1) 최서윤 기자, 방은영 디자이너 = 강아지 중성화 수술을
+              놓고 찬반이 팽팽하게 엇갈린다. 많은 사람들은 사람과 공존하려면
+              개체수 조절을 위해 필요하다고 주장한다. 그러나 어떤 사람들은
+              인위적인 수술은 안된다며 반대한다.
+            </div>
+          </div>
+          <div class="third-news">
+            <span><img src="thumbnail1.jpg" alt="" /></span>
+            <div>
+              <a href="http://www.naver.com" class="news3-title"
+                >다이어트에 좋은 여름 복숭아, 먹으면 안 되는 사람 있어</a
+              >
+            </div>
+            <span class="news3-contents">
+              복숭아가 제철이다. 여름 복숭아는 다양한 건강 효과를 낸다.
+              복숭아에는 포도당, 과당, 수분이 풍부하고 유기산(산성을 띠는 물질로
+              식품에서 신맛을 냄)이 0.5% 정도로 적게 들어 단맛이 강하다.
+              복숭아의 열량은 100g당 36kcal다. 복숭아 한 개에 약 100kcal 정도다.
+              포만감에 비해 열량이 적은 편이여서 다이어트를 하는 사람에게도
+              좋다. 비타민이 많아서 피로 해소에 도움이 된다.
+            </span>
+          </div>
+        </div>
+        <p class="webtoon">웹툰</p>
+        <div class="webtoon-area">
+          <div id="webtoon-pics">
+            <span
+              ><img src="thumbnail2.jpg" alt="" class="webtoon-1_pic" />
+            </span>
+            <span
+              ><img src="thumbnail2.jpg" alt="" class="webtoon-2_pic"
+            /></span>
+            <span
+              ><img src="thumbnail2.jpg" alt="" class="webtoon-3_pic"
+            /></span>
+          </div>
+          <div>
+            <span class="webtoon-1_title">하루 3컷</span>
+            <span class="webtoon-2_title"
+              ><span id="cut-toon">컷툰</span>유미의 세포들</span
+            >
+            <span class="webtoon-3_title">이말년씨리즈 2018</span>
+          </div>
+          <div>
+            <span class="webtoon-1_contents">17화 편리하게 피곤하게</span>
+            <span class="webtoon-2_contents">326화 미래에서 온 텔레파시</span>
+            <span class="webtoon-3_contents">58화 공포의 떡볶이</span>
+          </div>
+          <div id="webtoon-pics">
+            <span
+              ><img src="thumbnail2.jpg" alt="" class="webtoon-4_pic"
+            /></span>
+            <span
+              ><img src="thumbnail2.jpg" alt="" class="webtoon-5_pic"
+            /></span>
+            <span
+              ><img src="thumbnail2.jpg" alt="" class="webtoon-6_pic"
+            /></span>
+          </div>
+          <div>
+            <span class="webtoon-4_title"
+              ><span id="smartphone">스마트폰</span>덴마</span
+            >
+            <span class="webtoon-5_title"
+              ><span id="cut-toon">컷툰</span>1인용 기분</span
+            >
+            <span class="webtoon-6_title">찬란하지 않아도 괜찮아</span>
+          </div>
+          <div class="last-contents">
+            <span class="webtoon-4_contents">195화 1.다이크(195)</span>
+            <span class="webtoon-5_contents">20화 평가</span>
+            <span class="webtoon-6_contents">56화 숨길 수 없어요.</span>
+          </div>
+        </div>
+      </span>
+      <hr class="last-line" />
+      <p class="address">
+        주소: 경기도 성남시 분당구, E-MAIL:honggildong@naver.com
+      </p>
+      <div class="copyright">
+        Copyright @Hong Gil dong, All Rights Reserved.
+      </div>
+    </div>
+  </body>
+</html>
